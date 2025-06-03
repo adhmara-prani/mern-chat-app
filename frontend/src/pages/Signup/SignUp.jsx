@@ -2,6 +2,7 @@ import React from 'react'
 import Lottie from 'lottie-react';
 import signupChat from '../../assets/signupChat.json'
 import GenderCheckbox from './GenderCheckbox';
+import { Link } from 'react-router-dom';
 {/* <Lottie animationData={signupChat} loop={true} /> */}
 
 const SignUp = () => {
@@ -36,9 +37,9 @@ const SignUp = () => {
           {/* Gender Checkbox goes here */}
           <GenderCheckbox/>
 
-          <a href="#" className='text-sm text-black hover:underline hover:text-blue-600 mt-5 inline-block'>Already have an account? Login</a>
+          <Link to={'/login'} className='text-sm text-black hover:underline hover:text-blue-600 mt-5 inline-block'>Already have an account? Login</Link>
 
-          <button className='btn btn-outline btn-primary w-full'>Create Account</button>
+          <button className='btn btn-outline btn-primary w-full mt-1'>Create Account</button>
         </form>
       </div>
     </div>
