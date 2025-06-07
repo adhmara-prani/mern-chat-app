@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Lottie from 'lottie-react';
 import signupChat from '../../assets/signupChat.json'
 import GenderCheckbox from './GenderCheckbox';
 import { Link } from 'react-router-dom';
+import useSignup from '../../hooks/useSignup';
 {/* <Lottie animationData={signupChat} loop={true} /> */}
 
 const SignUp = () => {
@@ -14,13 +14,15 @@ const SignUp = () => {
     gender:''
   });
 
+  const {loading, signup} = useSignup(); 
+
   const handleCheckboxChange = (gender) => {
     setInputs({...inputs, gender});
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(inputs);
+    await signup(inputs);
   }
 
   return (
