@@ -2,8 +2,8 @@
 @plugin "daisyui";
 
 body {
-    background: #DCD6F7;
+    background: url(./assets/pexels-creative-vix-9754.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:right;
 }
