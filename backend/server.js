@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import connectToDB from "./db/connectToMongoDb.js";
+import connectToDB from "./db/connectToMongoDB.js";
 import cookieParser from "cookie-parser";
 import path from 'path';
 
