@@ -15,7 +15,7 @@ const Message = ({message}) => {
   return (
     <div className={`chat ${chatClassName}`}>
         <div className='chat-image avatar'>
-            <div className='w-7 m-2'>
+            <div className='w-7'>
                 <img src={profilePic} alt="chat bubble conversation getter_or_setter" />
             </div>
         </div>

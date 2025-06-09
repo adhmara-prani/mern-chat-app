@@ -4,7 +4,7 @@ import Conversations from './COnversations.jsx'
 import LogoutButton from './LogoutButton.jsx'
 const Sidebar = () => {
   return (
-    <div className='p-4 flex flex-col border-r border-slate-500'>
+    <div className='p-2 flex flex-col border-r border-slate-500'>
       <SearchInput/>
 
       {/* divider */}
