@@ -1,4 +1,4 @@
-# 💬 Real-Time Chat App - MERN Stack with Socket.IO
+# 💬 CHATMONDE: A Real-Time Chat App made using MERN Stack with Socket.IO
 
 A modern, full-stack real-time chat application built using the MERN stack (MongoDB, Express.js, React, Node.js) and powered by **Socket.IO** for live bi-directional communication.
 
