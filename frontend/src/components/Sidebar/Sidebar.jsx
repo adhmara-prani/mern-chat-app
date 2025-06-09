@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchInput from "./SearchInput.jsx"
-import Conversations from './COnversations.jsx'
+import Conversations from './Conversation.jsx'
 import LogoutButton from './LogoutButton.jsx'
 const Sidebar = () => {
   return (
